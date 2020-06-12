@@ -3,8 +3,8 @@ self.addEventListener('install', event => {
   event.waitUntil(caches.open('list-cache-v1')
     .then(cache => cache.addAll([
       '/',
-      '/db.js',
-      '/app.js',
+      '/db.min.js',
+      '/app.min.js',
       '/manifest.json'
     ])))
 })
