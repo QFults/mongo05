@@ -1,0 +1,8 @@
+{
+  "name": "To-Do List Application",
+  "short_name": "To-Do App",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "display": "standalone"
+}
